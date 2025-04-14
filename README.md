@@ -1,2 +1,2 @@
 # recognize-bot
-recognize voice messages and pictures to text
+recognize voice messages and convert it to text
