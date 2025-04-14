@@ -3,6 +3,7 @@ import json
 from pydub import AudioSegment
 from vosk import Model, KaldiRecognizer
 
+# replace model_path with yours
 def ogg_to_text(ogg_bytes, model_path="vosk-model-small-ru-0.22"):
     model = Model(model_path)
     audio = AudioSegment.from_ogg(ogg_bytes)
